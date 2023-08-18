@@ -1,0 +1,27 @@
+.gallery {
+    height: 60rem;
+    margin: 8rem 20rem;
+    text-align: center;
+}
+
+.gallery h2{
+    font-size: 3.7rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.gallery span {
+    color: var(--hovertext-color);
+}
+
+.gallery__img {
+    max-width: 100%;
+}
+
+.gallery__img img {
+    object-fit: cover;
+    object-position: left;
+    max-height: 26.3rem;
+}

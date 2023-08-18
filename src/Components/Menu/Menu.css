@@ -1,0 +1,48 @@
+.menu {
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 19rem;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 16rem;
+}
+
+.navlist {
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.navtext {
+    color: var(--text-color);
+}
+
+.navlist::after {
+    content: "|";
+    margin: 0 2rem;
+}
+
+.navlist:last-child::after {
+    content: "";
+}
+
+.navtext:hover {
+    color: var(--hovertext-color);
+}
+
+.navbar li:first-child a {
+    color: var(--hovertext-color);
+}

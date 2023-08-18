@@ -1,0 +1,52 @@
+.sponsers {
+  margin: 10rem 20rem;
+}
+
+.sponser__head h2 {
+  font-size: 3.7rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.sponser__head span {
+  color: var(--hovertext-color);
+}
+
+.sponsers__logo {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spl {
+  width: 33.3rem;
+}
+
+.image_spon {
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 3rem;
+  text-align: center;
+  max-width: 100%;
+}
+
+.image_spon::after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+
+.image_spon img {
+    max-height: 7.8rem;
+    object-position: center center;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+}

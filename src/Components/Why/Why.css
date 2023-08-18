@@ -1,0 +1,58 @@
+.why {
+    height: 60rem;
+    margin: 5rem 20rem;
+}
+
+.why__info{
+    text-align: center;
+}
+
+.why__info h2{
+    font-size: 3.7rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.why__info span {
+    color: var(--hovertext-color);
+}
+
+.why__info p{
+    font-size: 1.7rem;
+    color: #575757;
+    font-family: "Open Sans", sans-serif;
+    line-height: 2;
+}
+
+.why__banner {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    background-color: var(--hovertext-color);
+    color: var(--primary-color);
+    margin: 1.5rem;
+    height: 40rem;
+    text-align: center;
+    padding: 2rem;
+    width: 40rem;
+}
+
+.banner img {
+    max-width: 30%;
+}
+
+.banner p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2;
+    font-family: "Nunito", sans-serif;
+}
+
+#banner__spl{
+    background-color: #363636;
+}

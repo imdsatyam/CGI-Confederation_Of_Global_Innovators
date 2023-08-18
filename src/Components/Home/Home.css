@@ -1,0 +1,122 @@
+.home {
+  height: 60rem;
+  background: linear-gradient(rgba(20, 10, 50, 0.5), rgba(20, 10, 50, 0.5)),
+    url(../../Assets/slider-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15rem;
+}
+
+.left {
+  width: 50%;
+}
+
+.left h5 {
+  color: var(--secondary-color);
+  font-size: 4rem;
+  font-weight: 200;
+  line-height: 1.2;
+  font-family: "Nunito", sans-serif;
+}
+
+.left p {
+  margin-top: 1.8rem;
+  font-size: 3.8rem;
+  float: left;
+  font-weight: 300;
+  color: #fff;
+  width: 100%;
+  line-height: 1.8;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+em {
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: var(--hovertext-color);
+  padding: 1.5rem 1.5rem 1rem;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+.right {
+  background: url(../../Assets/form-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6rem;
+  height: 40rem;
+}
+
+form {
+  padding: 0 5rem;
+}
+
+.input,
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.3rem 0;
+  height: 4.5rem;
+  width: 30rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+.input::placeholder {
+  padding: 0.6rem 0.75rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1.5rem 3rem;
+  border-radius: 3rem;
+  display: inline-block;
+  transition: all ease-in-out 0.2s;
+  font-weight: bold;
+  background-color: var(--hovertext-color);
+  color: var(--primary-color);
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--hovertext-color);
+  border: 1px solid var(--hovertext-color);
+}
+
+.btn_submit {
+  font-size: 1.8rem;
+  padding: 1.5rem 9rem;
+  border-radius: 3rem;
+  display: inline-block;
+  transition: all ease-in-out 0.2s;
+  font-weight: bold;
+  background-color: var(--hovertext-color);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.btn_submit:hover {
+  background-color: var(--primary-color);
+  color: var(--hovertext-color);
+  border: 1px solid var(--hovertext-color);
+}

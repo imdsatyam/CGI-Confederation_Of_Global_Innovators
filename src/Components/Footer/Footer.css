@@ -1,0 +1,116 @@
+.footer {
+  height: 40rem;
+  background-color: var(--hovertext-color);
+  color: var(--primary-color);
+  padding: 0 25rem;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 3.7rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.newsle {
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.footer input {
+  width: 40rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 2rem 0 0 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.footer input::placeholder {
+  padding: 2rem;
+}
+
+.footer button {
+  font-size: 1.7rem;
+  width: 15rem;
+  height: 5rem;
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  border: 0;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.footer__info {
+    padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logofooter {
+  width: 30rem;
+  padding: 0 4rem;
+  padding-bottom: 2.4rem;
+}
+
+.logofooter img {
+  max-width: 100%;
+  padding-bottom: 2.4rem;
+  background-size: contain;
+}
+
+.address {
+  padding: 0 8rem;
+  padding-bottom: 2.4rem;
+  margin-right: 12rem;
+}
+
+.address h4 {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.address p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.logo__foo h4 {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.logo__foo p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.logo__foo ul {
+  text-align: start;
+  padding-top: 1rem;
+}
+
+.logo__foo li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.logo__foo a {
+  font-size: 1.7rem;
+  color: var(--primary-color);
+}
+
+.copywrite {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
