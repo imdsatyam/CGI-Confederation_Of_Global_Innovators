@@ -1,8 +1,8 @@
-import './Home.css';
+import './Banner.css';
 
-function Home() {
+function Banner() {
     return (
-        <div className="home">
+        <div className="banner__main">
             <div className="left">
                 <h5>Do you want to learn?</h5>
                 <p>Connecting for <em>contributing</em> Interacting for <span>Innovating</span></p>
@@ -27,4 +27,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Banner;

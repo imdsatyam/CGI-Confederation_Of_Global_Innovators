@@ -5,6 +5,7 @@
   --text-color: #000000;
   --hovertext-color: #bf1e23;
   --secondary-color: #efa506;
+  --secondry-text: #575757;
 }
 
 html {
@@ -29,46 +30,530 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-@media (max-width: 1280px) {
+.imageabout {
+  background-image: linear-gradient(
+      rgba(40, 23, 62, 0.62),
+      rgba(40, 23, 62, 0.62)
+    ),
+    url(./Assets/partners-banner.png);
+  width: auto;
+  height: 60rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#imageabout {
+  background-image: linear-gradient(
+      rgba(40, 23, 62, 0.62),
+      rgba(40, 23, 62, 0.62)
+    ),
+    url(./Assets/leadersipbanner.png);
+}
+
+.aboutText {
+  padding: 15rem 0;
+  color: var(--primary-color);
+  margin-left: 20rem;
+  width: 50rem;
+}
+
+.peronalFull {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5rem 20rem;
+  border-bottom: dashed 1px rgba(83, 74, 186, 0.5);;
+}
+
+#leader__full{
+  border-bottom: none;
+}
+
+.personalImage {
+  width: 30rem;
+  height: 20rem;
+}
+
+.personalImagenext{
+  object-fit: cover;
+  height: auto;
+  width: 70%;
+}
+
+.personalImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.personalImagenext img{
+  width: 100%;
+  height: 100%;
+}
+
+.personalText h1 {
+  color: var(--hovertext-color);
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.7rem;
+}
+
+.personalImagenext h1{
+  color: var(--hovertext-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.personalImagenext p, .personalText p {
+  color: var(--secondry-text);
+  font-size: 1.8rem;
+  line-height: 3.7rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: light;
+}
+
+.personalText ul{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 3rem;
+}
+
+.personalText li{
+  list-style-type: disc !important;
+  color: var(--secondry-text);
+  font-size: 1.8rem;
+  line-height: 3.7rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: light;
+}
+
+.containernew{
+  background-color: #f8f9fa!important;
+  padding: 10rem 0;
+}
+
+#text {
+  width: 40%;
+  padding: 17rem 0;
+  margin-left: 20rem;
+}
+
+.icon {
+  margin-bottom: 2rem;
+}
+
+.icon svg{
+  width: auto;
+  height: 2rem;
+}
+
+.icon a{
+  margin: 0 1rem;
+  color: var(--hovertext-color);
+}
+
+.mainError {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+}
+
+.Error{
+  text-align: center;
+}
+
+.ErrorCode {
+  font-size: 15rem;
+}
+
+.ErrorMsg {
+  font-size: 5rem;
+}
+
+.ErrorMsgNext {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1680px) {
   html {
-    font-size: 50%;
-  }
-  .logo {
-    width: 10%;
+    font-size: 60%;
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1280px) and (max-width: 1480px) {
   html {
-    font-size: 35%;
-  }
-  .logo {
-    width: 10%;
+    font-size: 55%;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   html {
-    font-size: 28%;
-  }
-  .logo {
-    width: 10%;
+    font-size: 45%;
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 34%;
+  }
+  .personalImagenext img{
+    width: 80%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  html {
+    font-size: 26%;
+  }
+
+  .banner__main, .who, .why__banner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner__main .right {
+    display: none;
+  }
+
+  .banner__main .left {
+    margin: auto;
+  }
+
+  .who .who__bg{
+    margin-top: 10rem;
+  }
+
+  .who .who__are{
+    width: 90%;
+  }
+
+  .why__banner .banner {
+    width: 60%;
+    height: 40rem;
+  }
+
+  .why__banner .banner p{
+    margin-top: 5rem;
+  }
+
+  .why__banner .banner img{
+    width: 20%;
+  }
+
+  .personalImagenext img{
+    width: 70%;
+  }
+
+  .menu {
+    padding: 2rem;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .navmain {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    display: none;
+    padding: 0 10rem;
+  }
+
+  .navlist {
+    width: 100%;
+  }
+
+  .navlist a {
+    font-size: 4rem !important;
+    padding: 2rem;
+  }
+
+  .submenu {
+    position: relative;
+    width: 100%;
+    padding-left: 2.5rem;
+  }
+
+  .submenu li {
+    background-color: var(--primary-color);
+  }
+
+  #menu_bar:checked ~ #navmain {
+    display: initial;
+  }
+
+  .navlist a::after {
+    float: right;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 600px) {
   html {
     font-size: 21%;
   }
-  .logo {
-    width: 10%;
+
+  .banner__main, .who, .why__banner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner__main .right {
+    display: none;
+  }
+
+  .banner__main .left {
+    margin: auto;
+  }
+
+  .who .who__bg{
+    margin-top: 10rem;
+  }
+
+  .who .who__are{
+    width: 90%;
+  }
+
+  .why__banner .banner {
+    width: 60%;
+    height: 40rem;
+  }
+
+  .why__banner .banner p{
+    margin-top: 5rem;
+  }
+
+  .why__banner .banner img{
+    width: 20%;
+  }
+
+  .personalImagenext img{
+    width: 50%;
+  }
+
+  .menu {
+    padding: 2rem;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .navmain {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    display: none;
+    padding: 0 10rem;
+  }
+
+  .navlist {
+    width: 100%;
+  }
+
+  .navlist a {
+    font-size: 4rem !important;
+    padding: 2rem;
+  }
+
+  .submenu {
+    position: relative;
+    width: 100%;
+    padding-left: 2.5rem;
+  }
+
+  .submenu li {
+    background-color: var(--primary-color);
+  }
+
+  #menu_bar:checked ~ #navmain {
+    display: initial;
+  }
+
+  .navlist a::after {
+    float: right;
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 380px) and (max-width: 480px) {
   html {
     font-size: 15%;
   }
+
+  .banner__main, .who, .why__banner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner__main .right {
+    display: none;
+  }
+
+  .banner__main .left {
+    margin: auto;
+  }
+
+  .who .who__bg{
+    margin-top: 10rem;
+  }
+
+  .who .who__are{
+    width: 90%;
+  }
+
+  .why__banner .banner {
+    width: 60%;
+    height: 40rem;
+  }
+
+  .why__banner .banner p{
+    margin-top: 5rem;
+  }
+
+  .why__banner .banner img{
+    width: 20%;
+  }
+
+  .menu {
+    padding: 2rem;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .navmain {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    display: none;
+    padding: 0 10rem;
+  }
+
+  .navlist {
+    width: 100%;
+  }
+
+  .navlist a {
+    font-size: 4rem !important;
+    padding: 2rem;
+  }
+
+  .submenu {
+    position: relative;
+    width: 100%;
+    padding-left: 2.5rem;
+  }
+
+  .submenu li {
+    background-color: var(--primary-color);
+  }
+
+  #menu_bar:checked ~ #navmain {
+    display: initial;
+  }
+
+  .navlist a::after {
+    float: right;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 380px) {
+  html {
+    font-size: 11%;
+  }
+
+  .banner__main, .who, .why__banner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner__main .right {
+    display: none;
+  }
+
+  .banner__main .left {
+    margin: auto;
+  }
+
+  .who .who__bg{
+    margin-top: 10rem;
+  }
+
+  .who .who__are{
+    width: 90%;
+  }
+
+  .why__banner .banner {
+    width: 60%;
+    height: 40rem;
+  }
+
+  .why__banner .banner p{
+    margin-top: 5rem;
+  }
+
+  .why__banner .banner img{
+    width: 20%;
+  }
+  
+  .menu {
+    padding: 2rem;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .navmain {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    display: none;
+    padding: 0 10rem;
+  }
+
+  .navlist {
+    width: 100%;
+  }
+
+  .navlist a {
+    font-size: 4rem !important;
+    padding: 2rem;
+  }
+
+  .submenu {
+    position: relative;
+    width: 100%;
+    padding-left: 2.5rem;
+  }
+
+  .submenu li {
+    background-color: var(--primary-color);
+  }
+
+  #menu_bar:checked ~ #navmain {
+    display: initial;
+  }
+
+  .navlist a::after {
+    float: right;
+  }
+
   .logo {
     width: 10%;
   }

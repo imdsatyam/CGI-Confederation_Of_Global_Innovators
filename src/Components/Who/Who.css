@@ -1,9 +1,11 @@
-.about {
+.who {
   height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10rem 15rem;
+  z-index: 1;
+  
 }
 
 .who__are {

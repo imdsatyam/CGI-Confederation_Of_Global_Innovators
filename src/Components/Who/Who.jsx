@@ -1,9 +1,9 @@
-import "./About.css";
+import "./Who.css";
 import bg from "../../Assets/about-us-image.png";
 
-function About() {
+function Who() {
   return (
-    <div className="about">
+    <div className="who">
       <div className="who__are">
         <h3>Who are we</h3>
         <p>
@@ -27,4 +27,4 @@ function About() {
   );
 }
 
-export default About;
+export default Who;

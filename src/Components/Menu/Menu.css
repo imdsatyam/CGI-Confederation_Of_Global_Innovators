@@ -1,48 +1,91 @@
 .menu {
-    height: 10rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 2rem 7%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  position: relative;
 }
 
 .logo {
-    padding-left: 19rem;
-}
-
-.menu img {
-    width: 100%;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    padding: 0 16rem;
+  width: 10rem;
 }
 
 .navlist {
-    font-size: 1.6rem;
-    font-weight: 200;
+  float: left;
 }
 
-.navtext {
-    color: var(--text-color);
+.navlist a {
+  font-size: 1.7rem;
+  padding: 2rem;
+  color: var(--text-color);
+  display: block;
 }
 
-.navlist::after {
-    content: "|";
-    margin: 0 2rem;
+#menu_bar {
+  display: none;
 }
 
-.navlist:last-child::after {
-    content: "";
+.submenu {
+  position: absolute;
+  margin: auto;
+  width: 25rem;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  display: none;
 }
 
-.navtext:hover {
-    color: var(--hovertext-color);
+.submenu li {
+  width: 100%;
 }
 
-.navbar li:first-child a {
-    color: var(--hovertext-color);
+.navlist:hover > .submenu {
+  display: initial;
+}
+
+label {
+  background-color: #2b3f68;
+  padding: 1.5rem 2.5rem;
+  color: var(--primary-color);
+  margin-top: 0px;
+  cursor: pointer;
+  display: none;
+  border-radius: 10%;
+}
+
+.hamburger {
+  height: 5em !important;
+  color: var(--primary-color) !important;
+}
+
+.navlist a::after{
+  content: "|" !important;
+  margin-left: 2.5rem;
+  color: var(--text-color);
+}
+
+.navtext:hover{
+  color: var(--hovertext-color);
+}
+
+.navbar li:first-child a{
+  color: var(--hovertext-color);
+}
+
+.submenu li a{
+  color: var(--hovertext-color);
+}
+
+.submenu li a:hover{
+  background-color: var(--hovertext-color);
+  color: var(--primary-color);
+}
+
+.submenu li a::after{
+  content: "" !important;
 }
