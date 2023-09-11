@@ -20,7 +20,7 @@ function Footer() {
           />
           <button>Subscribe</button>
         </div>
-        <div className="footer__info">
+        <div className="footer__info" style={{paddingBottom:'10rem'}}>
           <div className="logofooter">
             <img src={LogoFooter} alt="" />
           </div>

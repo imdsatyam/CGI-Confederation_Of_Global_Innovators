@@ -67,7 +67,7 @@ const PartnerAndAssociates = () => {
               <div className="row peronalFull">
                 <div
                   className="col-8 personalText"
-                  style={{ marginBottom: "5rem" }}
+                  style={{ marginBottom: "5rem"}}
                 >
                   <h1>SEWAPOINT</h1>
                   <p>
@@ -79,7 +79,7 @@ const PartnerAndAssociates = () => {
                 </div>
                 <div
                   className="col-4 personalImagenext"
-                  style={{ margin: "5rem", width: "50%" }}
+                  style={{ margin: "5rem", width: "30%" }}
                 >
                   <img src={Image_2} alt="" />
                 </div>
@@ -126,7 +126,8 @@ const PartnerAndAssociates = () => {
                 </div>
                 <div
                   className="col-4 personalImagenext"
-                  style={{ margin: "5rem", width: "100%" }}
+                  id="Imagelogo"
+                  style={{ margin: "10rem", width: "40%" }}
                 >
                   <img src={Image_4} alt="" />
                 </div>
@@ -134,7 +135,7 @@ const PartnerAndAssociates = () => {
               <div className="row peronalFull">
                 <div
                   className="col-4 personalImagenext"
-                  style={{ margin: "5rem", width: "50%" }}
+                  style={{ margin: "15rem", width: "30%" }}
                 >
                   <img src={Image_5} alt="" />
                 </div>
@@ -174,7 +175,7 @@ const PartnerAndAssociates = () => {
               <div className="row peronalFull" style={{borderBottom:'none'}}>
                 <div
                   className="col-4 personalImagenext"
-                  style={{ margin: "5rem", width: "40%" }}
+                  style={{ margin: "5rem", width: "30%" }}
                 >
                   <img src={Image_7} alt="" />
                 </div>

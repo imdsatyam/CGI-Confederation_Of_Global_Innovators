@@ -64,10 +64,10 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin: 5rem 20rem;
-  border-bottom: dashed 1px rgba(83, 74, 186, 0.5);;
+  border-bottom: dashed 1px rgba(83, 74, 186, 0.5);
 }
 
-#leader__full{
+#leader__full {
   border-bottom: none;
 }
 
@@ -76,7 +76,7 @@ body {
   height: 20rem;
 }
 
-.personalImagenext{
+.personalImagenext {
   object-fit: cover;
   height: auto;
   width: 70%;
@@ -87,7 +87,7 @@ body {
   height: 100%;
 }
 
-.personalImagenext img{
+.personalImagenext img {
   width: 100%;
   height: 100%;
 }
@@ -99,7 +99,7 @@ body {
   line-height: 2.7rem;
 }
 
-.personalImagenext h1{
+.personalImagenext h1 {
   color: var(--hovertext-color);
   font-size: 2.5rem;
   font-weight: bold;
@@ -107,7 +107,8 @@ body {
   margin-bottom: 2rem;
 }
 
-.personalImagenext p, .personalText p {
+.personalImagenext p,
+.personalText p {
   color: var(--secondry-text);
   font-size: 1.8rem;
   line-height: 3.7rem;
@@ -115,14 +116,14 @@ body {
   font-weight: light;
 }
 
-.personalText ul{
+.personalText ul {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   padding-inline-start: 3rem;
 }
 
-.personalText li{
+.personalText li {
   list-style-type: disc !important;
   color: var(--secondry-text);
   font-size: 1.8rem;
@@ -131,8 +132,8 @@ body {
   font-weight: light;
 }
 
-.containernew{
-  background-color: #f8f9fa!important;
+.containernew {
+  background-color: #f8f9fa !important;
   padding: 10rem 0;
 }
 
@@ -146,12 +147,12 @@ body {
   margin-bottom: 2rem;
 }
 
-.icon svg{
+.icon svg {
   width: auto;
   height: 2rem;
 }
 
-.icon a{
+.icon a {
   margin: 0 1rem;
   color: var(--hovertext-color);
 }
@@ -163,7 +164,7 @@ body {
   margin-top: 20rem;
 }
 
-.Error{
+.Error {
   text-align: center;
 }
 
@@ -202,17 +203,19 @@ body {
   html {
     font-size: 34%;
   }
-  .personalImagenext img{
+  .personalImagenext img {
     width: 80%;
   }
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
   html {
-    font-size: 26%;
+    font-size: 40%;
   }
 
-  .banner__main, .who, .why__banner{
+  .banner__main,
+  .who,
+  .why__banner {
     display: flex;
     flex-direction: column;
   }
@@ -225,11 +228,11 @@ body {
     margin: auto;
   }
 
-  .who .who__bg{
+  .who .who__bg {
     margin-top: 10rem;
   }
 
-  .who .who__are{
+  .who .who__are {
     width: 90%;
   }
 
@@ -238,15 +241,15 @@ body {
     height: 40rem;
   }
 
-  .why__banner .banner p{
+  .why__banner .banner p {
     margin-top: 5rem;
   }
 
-  .why__banner .banner img{
+  .why__banner .banner img {
     width: 20%;
   }
 
-  .personalImagenext img{
+  .personalImagenext img {
     width: 70%;
   }
 
@@ -294,14 +297,38 @@ body {
   .navlist a::after {
     float: right;
   }
+
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .row .personalText {
+    text-align: center;
+    margin: 5rem 0;
+  }
+
+  .container .row .personalImage,
+  .personalImagenext {
+    width: 30%;
+    height: auto;
+  }
+
+  .container .row .personalImagenext img {
+    padding-left: 5rem;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 600px) {
   html {
-    font-size: 21%;
+    font-size: 25%;
   }
 
-  .banner__main, .who, .why__banner{
+  .banner__main,
+  .who,
+  .why__banner {
     display: flex;
     flex-direction: column;
   }
@@ -314,11 +341,11 @@ body {
     margin: auto;
   }
 
-  .who .who__bg{
+  .who .who__bg {
     margin-top: 10rem;
   }
 
-  .who .who__are{
+  .who .who__are {
     width: 90%;
   }
 
@@ -327,15 +354,15 @@ body {
     height: 40rem;
   }
 
-  .why__banner .banner p{
+  .why__banner .banner p {
     margin-top: 5rem;
   }
 
-  .why__banner .banner img{
+  .why__banner .banner img {
     width: 20%;
   }
 
-  .personalImagenext img{
+  .personalImagenext img {
     width: 50%;
   }
 
@@ -383,14 +410,38 @@ body {
   .navlist a::after {
     float: right;
   }
+
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .row .personalText {
+    text-align: center;
+    margin: 5rem 0;
+  }
+
+  .container .row .personalImage,
+  .personalImagenext {
+    width: 30%;
+    height: auto;
+  }
+
+  .container .row .personalImagenext img {
+    padding-left: 10rem;
+  }
 }
 
 @media (min-width: 380px) and (max-width: 480px) {
   html {
-    font-size: 15%;
+    font-size: 20%;
   }
 
-  .banner__main, .who, .why__banner{
+  .banner__main,
+  .who,
+  .why__banner {
     display: flex;
     flex-direction: column;
   }
@@ -403,11 +454,11 @@ body {
     margin: auto;
   }
 
-  .who .who__bg{
+  .who .who__bg {
     margin-top: 10rem;
   }
 
-  .who .who__are{
+  .who .who__are {
     width: 90%;
   }
 
@@ -416,11 +467,11 @@ body {
     height: 40rem;
   }
 
-  .why__banner .banner p{
+  .why__banner .banner p {
     margin-top: 5rem;
   }
 
-  .why__banner .banner img{
+  .why__banner .banner img {
     width: 20%;
   }
 
@@ -468,14 +519,34 @@ body {
   .navlist a::after {
     float: right;
   }
+
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .row .personalText {
+    text-align: center;
+    margin: 5rem 0;
+  }
+
+  .container .row .personalImage,
+  .personalImagenext {
+    width: 25%;
+    height: auto;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 380px) {
   html {
-    font-size: 11%;
+    font-size: 15%;
   }
 
-  .banner__main, .who, .why__banner{
+  .banner__main,
+  .who,
+  .why__banner {
     display: flex;
     flex-direction: column;
   }
@@ -488,11 +559,11 @@ body {
     margin: auto;
   }
 
-  .who .who__bg{
+  .who .who__bg {
     margin-top: 10rem;
   }
 
-  .who .who__are{
+  .who .who__are {
     width: 90%;
   }
 
@@ -501,14 +572,14 @@ body {
     height: 40rem;
   }
 
-  .why__banner .banner p{
+  .why__banner .banner p {
     margin-top: 5rem;
   }
 
-  .why__banner .banner img{
+  .why__banner .banner img {
     width: 20%;
   }
-  
+
   .menu {
     padding: 2rem;
   }
@@ -556,5 +627,27 @@ body {
 
   .logo {
     width: 10%;
+  }
+
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .row .personalText {
+    text-align: center;
+    margin: 5rem 0;
+  }
+
+  .container .row .personalImage,
+  .personalImagenext {
+    width: 15%;
+    height: auto;
+  }
+
+  .container .row .personalImagenext img {
+    padding-left: 5rem;
   }
 }
