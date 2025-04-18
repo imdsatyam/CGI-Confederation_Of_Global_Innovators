@@ -19,16 +19,16 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/"element={<Home />} />
-        <Route path="/#about" element={<About />} />
-        <Route path="/#chairman" element={<Chairman />} />
-        <Route path="/#president" element={<President />} />
-        <Route path="/#director" element={<Director />} />
-        <Route path="/#council-of-innovators" element={<CouncilOfInnovators />} />
-        <Route path="/#partner-and-associates" element={<PartnerAndAssociates />} />
-        <Route path="/#global-chapter" element={<GlobalChapter />} />
-        <Route path="/#economic-council" element={<EconomicCouncil />} />
-        <Route path="/#ipr-council" element={<IprCouncil />} />
-        <Route path="/#compliance-council" element={<ComplianceCouncil />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/chairman" element={<Chairman />} />
+        <Route path="/president" element={<President />} />
+        <Route path="/director" element={<Director />} />
+        <Route path="/council-of-innovators" element={<CouncilOfInnovators />} />
+        <Route path="/partner-and-associates" element={<PartnerAndAssociates />} />
+        <Route path="/global-chapter" element={<GlobalChapter />} />
+        <Route path="/economic-council" element={<EconomicCouncil />} />
+        <Route path="/ipr-council" element={<IprCouncil />} />
+        <Route path="/compliance-council" element={<ComplianceCouncil />} />
         <Route path="*"element={<Error />} />
       </Routes>
     </div>
