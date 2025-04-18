@@ -19,7 +19,7 @@ function Menu() {
             </Link>
           </li>
           <li className="navlist">
-            <Link to ="/about"  className="navtext">
+            <Link to ="/#about"  className="navtext">
               About Us
             </Link>
           </li>
@@ -29,34 +29,34 @@ function Menu() {
             </Link>
             <ul className="submenu">
               <li className="navlist">
-                <Link to ="/chairman" className="navtext">
+                <Link to ="/#chairman" className="navtext">
                   Chairman
                 </Link>
               </li>
               <li className="navlist">
-                <Link to ="/president"  className="navtext">
+                <Link to ="/#president"  className="navtext">
                   President
                 </Link>
               </li>
               <li className="navlist">
-                <Link to ="/director" className="navtext">
+                <Link to ="/#director" className="navtext">
                   Director
                 </Link>
               </li>
               <li className="navlist">
-                <Link to ="/council-of-innovators" className="navtext">
+                <Link to ="/#council-of-innovators" className="navtext">
                   Council Of Innovators
                 </Link>
               </li>
             </ul>
           </li>
           <li className="navlist">
-            <Link to ="/partner-and-associates" className="navtext">
+            <Link to ="/#partner-and-associates" className="navtext">
               Partner & Associates
             </Link>
           </li>
           <li className="navlist">
-            <Link to ="/global-chapter" className="navtext">
+            <Link to ="/#global-chapter" className="navtext">
               Global Chapter
             </Link>
           </li>
@@ -66,17 +66,17 @@ function Menu() {
             </Link>
             <ul className="submenu">
               <li className="navlist">
-                <Link to ="/economic-council" className="navtext">
+                <Link to ="/#economic-council" className="navtext">
                   Economic Council
                 </Link>
               </li>
               <li className="navlist">
-                <Link to ="/ipr-council" className="navtext">
+                <Link to ="/#ipr-council" className="navtext">
                   IPR Council
                 </Link>
               </li>
               <li className="navlist">
-                <Link to ="/compliance-council" className="navtext">
+                <Link to ="/#compliance-council" className="navtext">
                   Compliance Council
                 </Link>
               </li>
