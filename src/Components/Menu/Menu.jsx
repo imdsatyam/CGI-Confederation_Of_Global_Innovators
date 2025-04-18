@@ -83,7 +83,7 @@ function Menu() {
             </ul>
           </li>
           <li className="navlist">
-            <Link to ="/" className="navtext">
+            <Link to ="/#" className="navtext">
               Contact
             </Link>
           </li>
